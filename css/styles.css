@@ -1,0 +1,385 @@
+html{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+/*-----------------------------header----index , gallery and contact us-----------------------------*/
+a:link {
+    color: #6439FF;
+  }
+
+  a:visited {
+    color: #4D869C;
+  }
+
+  a:hover {
+    color: rgb(12, 11, 11);
+  }
+  
+  a:active {
+    color: rgb(84, 84, 173);
+  }
+
+header{
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    background-color:#CDE8E5;
+}
+
+header h2{
+    margin-top: 1rem;
+}
+
+h1{font-size: 3.25rem;}
+
+header nav a h2{
+font-size: 1.75rem;
+text-decoration: underline;
+
+float: left;
+padding: 1rem 1rem 1rem 1rem;
+
+}
+h2{
+font-size: 1.75rem;
+
+}
+/*-----------------------------mission---------------------------------*/
+.mission{
+background-image: url("..//gallery/map.png");
+background-size: cover;
+width: 100%;
+height: 800px;
+text-align: center;
+}
+
+.flex_cont_mission {
+    position: absolute;
+    top: 350px;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+   
+    background-color: rgba(255, 255, 255, 0.432);
+}
+  .flex_cont_mission > div {
+    background-color: rgb(238, 227, 227);
+  flex: 20%;
+ 
+ float: left;
+ margin: 1rem 4rem 1rem 4rem;
+ text-align: center;
+  }
+
+  .flex_cont_mission > div img{
+    width: 100%;
+    height:90%;
+    float: left;
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+  }
+  .mission > h3{
+    text-align: center;
+    font-size: 1.25rem;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.432);
+  }
+  .mission > p {
+    
+     padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.432);
+  }
+  .flex_cont_mission > div h4{
+    padding-top: 100px;
+    font-size: 1rem;
+    
+  }
+
+ /*-----------------------------Events---------------------------------*/ 
+.events{
+background-color:#88adbb;
+text-align: center;
+}
+
+.events > p {
+  padding-bottom: 10px;
+  
+  }
+ .flex_cont_events {
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.432);
+}
+.flex_cont_events > div {
+  background-color: rgb(238, 227, 227);
+flex: 15%;
+float: left;
+margin: 1rem 4rem 1rem 4rem;
+text-align: center;
+border-radius: 15px;
+}
+
+.flex_cont_events > div img{
+  width: 100%;
+  height:80%;
+  float: left;
+  margin-bottom: 5px;
+  border-radius: 15px;
+
+}
+
+ /*-----------------------------Footer---------------------------------*/ 
+ footer{
+  width: 100%;
+  min-height:200px ;
+  background-color: #c3e2ee;
+
+
+ }
+
+ #so-media img{
+  width: 30px;
+  height:30px;
+  float: left;
+ margin: 10px 10px 10px 10px;
+
+
+ }
+ #copyr{
+  float: right;
+  margin: 20px 30px 20px 20px;
+   }
+  
+   #footer-contact-us{
+    width: 100%;
+     height: 100px;
+     text-align: center;
+     padding-top: 20px;
+  
+  
+   } 
+ 
+ /*----------------------------Gallery page---------------------------------*/ 
+
+ .gallery_events{
+  background-color:#88adbb;
+  text-align: center;
+  }
+  
+  .gallery_events > p {
+    padding-bottom: 10px;
+    
+    }
+   .flex_cont_gallery_events {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.432);
+  }
+  .flex_cont_gallery_events > div {
+    background-color: rgb(238, 227, 227);
+  flex: 20%;
+  float: left;
+  margin: 1rem 1rem 1rem 1rem;
+  text-align: center;
+  border-radius: 15px;
+  }
+  
+  .flex_cont_gallery_events > div img{
+    width: 100%;
+    height:90%;
+    float: left;
+    margin-bottom: 10px;
+    border-radius: 15px;
+  
+  }
+   /*----------------------------Contact us page---------------------------------*/ 
+   #map_cont{
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+   }
+
+   
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container_form{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+
+/*----------------------------Index page  Responsive   ---------------------------------*/ 
+@media only screen  and (max-width:480px) {
+     
+  header h2{
+    margin-top: 1.25rem;
+}
+
+h1{font-size: 2rem;}
+
+header nav a h2{
+font-size: 1.25rem;
+text-decoration: underline;
+
+float: left;
+padding: 1rem 1rem 1rem 1rem;
+
+}
+h2{
+font-size: 1.25rem;
+
+}
+h4{
+margin-bottom: 10px;
+
+}
+
+ /*----------------------------Index page  Responsive  mission   ---------------------------------*/ 
+ 
+
+  .flex_cont_mission > div {
+    background-color: rgba(238, 227, 227);
+    flex: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .flex_cont_mission > div img{
+    width: 100%;
+    height:90%;
+    border-radius: 15px;
+  
+  }
+
+
+
+
+
+
+
+
+
+ /*----------------------------Index page  Responsive events   ---------------------------------*/ 
+
+.flex_cont_events > div {
+  background-color: rgba(238, 227, 227);
+flex: 100%;
+padding-bottom: 10px;
+text-align: center;
+border-radius: 15px;
+}
+
+.flex_cont_events > div img{
+  width: 100%;
+  height:90%;
+  border-radius: 15px;
+
+}
+
+
+}
+
+
+
+@media only screen and  (max-width: 768px) {
+
+  .mission{
+    background-image: url("..//gallery/map.png");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    }
+  
+  .flex_cont_mission > div {
+    background-color: rgb(238, 227, 227);
+  flex:20%;
+  height:250px;
+  
+  margin: 1rem 1rem 1rem 1rem;
+  text-align: center;
+  }
+  
+  .flex_cont_mission > div img{
+    width: 100%;
+    height:90%;
+    float: left;
+    margin-bottom: 20px;
+    border-radius: 15px;
+  
+  }
+
+
+}
+
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS ruleset */
+
+
+  .mission{
+    background-image: url("..//gallery/map.png");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    }
+  
+  .flex_cont_mission > div {
+    background-color: rgb(238, 227, 227);
+  flex:20%;
+  height:250px;
+  border-radius: 15px;
+  margin: 1rem 1rem 1rem 1rem;
+  text-align: center;
+  }
+  
+  .flex_cont_mission > div img{
+    width: 100%;
+    height:90%;
+    float: left;
+    margin-bottom: 20px;
+    border-radius: 15px;
+  
+  }
+
+
+}
+
